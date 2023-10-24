@@ -1,0 +1,237 @@
+/************************************* global classes *************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(59, 12, 102);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+hr {
+  margin: auto;
+  padding: auto;
+  border-style: dotted none none none;
+  /* border-top-style: dotted; */
+  border-color: rgb(160, 143, 172);
+  border-width: 6px;
+  width: 10%;
+}
+
+
+
+/************************************* element classes *************************************/
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(44, 7, 51);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  width: fit-content;
+}
+
+.hover:hover {
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  text-decoration: none;
+  color: lavender;
+  font-size: 1.5rem;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.firstSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 80px 0;
+}
+
+.firstSection > div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 3rem;
+}
+.leftSection .buttons {
+  text-decoration: none;
+  padding: 50px 0;
+}
+.leftSection .btn {
+  padding: 12px;
+  padding: 12px;
+  background: rgb(177, 144, 221);
+  border: 1px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+*{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.rightSection img {
+  width: 80%;
+  height: auto;
+}
+
+.skillSection {
+  position: relative;
+  max-width: 80vw;
+  margin: auto;
+  height: 50vh;
+}
+
+.skillSection h1 {
+  font-size: 1.9rem;
+}
+
+.skillSection thead{
+  text-align: left;
+  font-size: 25px;
+  color: solid white;
+}
+
+.skillSection> div{
+  border-width: 3px;
+}
+.skillSection .abc{
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.skillSection .abc>div{
+  margin:  0px 10px 0px 0px;
+}
+
+.png{
+  display: block;
+  width: auto;
+  height: 210px;
+}
+
+
+.secondSection {
+  position: relative;
+  max-width: 80vw;
+  margin: auto;
+  height: 65vh;
+}
+
+.secondSection h1 {
+  font-size: 1.9rem;
+}
+
+.secondSection .box {
+  background-color: white;
+  width: 70vw;
+  height: 2px;
+  margin: 56px;
+  display: flex;
+}
+
+.secondSection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 123px;
+}
+
+.image-top {
+  width: 38px;
+  position: relative;
+  top: -44px;
+  left: -16px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 60px;
+  width: 150px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 86px;
+  color: gray;
+  width: 150px;
+  font-size: 9px;
+}
+
+/************************************* footer section *************************************/
+footer {
+  background-color: #1d0f1f;
+}
+.footer {
+  display: flex;
+  padding: 23px 122px;
+  justify-content: space-evenly;
+}
+.footer > div {
+  width: 223px;
+  height: 120px;
+}
+
+.footer-first > h3{
+text-align: center;
+}
+
+.snap {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+  border-radius: 16%; 
+}
+
+.footer ul {
+  list-style: none;
+}
+
+
+footer .text-rights {
+  text-align: center;
+  color: gray;
+  padding: 15px;
+}
+
+/************************************* Util classes *************************************/
+.purple {
+  color: rgb(146, 92, 197);
+}
+
+.text-gray {
+  color: grey;
+}
+
+#element {
+  color: rgb(146, 92, 197);
+}
